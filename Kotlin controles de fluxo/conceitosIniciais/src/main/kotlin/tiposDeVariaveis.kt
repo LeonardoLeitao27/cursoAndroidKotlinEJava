@@ -10,6 +10,6 @@ fun main() {
     var g: Byte
     var h: Byte
     var i: UInt
-    
+
 
 }
