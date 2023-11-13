@@ -34,4 +34,6 @@ fun main() {
             }
             println()
         }
+
+        print(matriz[0].size)
 }

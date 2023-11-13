@@ -20,7 +20,7 @@ fun main() {
     }
 
     println()
-    
+
     for(linhas in matriz){
         for (valor in linhas){
             print("${valor} ")
