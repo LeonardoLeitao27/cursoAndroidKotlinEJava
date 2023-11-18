@@ -1,3 +1,4 @@
+//Criação de funções utilizando kotlin
 fun casa(){
     print("Entrando na casa...\n")
     quarto()
