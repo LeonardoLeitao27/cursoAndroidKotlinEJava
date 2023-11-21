@@ -22,6 +22,9 @@ fun main() {
                 throw Exception()
             }
 
+        //Existem vários tipos de exceções
+        //Exemplos logo abaixo:
+
     }catch (e: NullPointerException){
         println("A variavel está vazia")
     }catch (e: ArithmeticException){
