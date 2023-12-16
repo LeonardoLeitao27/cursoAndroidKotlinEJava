@@ -10,7 +10,7 @@ class Silvestre(var nome: String){
     }
 }
 fun main() {
-    val s1 = Silvestre("Aguia")
+    val s1 = Silvestre("Gato")
     val s2 = Silvestre("Serpente", 1000)
 
     s1.AP()
