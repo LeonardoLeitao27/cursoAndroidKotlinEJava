@@ -8,7 +8,7 @@ public class variaveis {
 
 /**
  * TIPOS DE DADOS
- * 
+ *
  * Byte
  * Double
  * Float
