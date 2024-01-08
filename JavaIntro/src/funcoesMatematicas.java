@@ -9,7 +9,7 @@ public class funcoesMatematicas {
         System.out.println(Math.E);
         System.out.println(Math.random());
 
-        
+
 
     }
 }

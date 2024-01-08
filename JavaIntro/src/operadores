@@ -1,0 +1,11 @@
+Operadores relacionais e operadores lógicos
+= atribuição
+== igualdade
+!= diferente
+> maior que
+>= maior ou igual
+< menor que
+<= menor ou igual
+&& e
+|| ou
+! não
