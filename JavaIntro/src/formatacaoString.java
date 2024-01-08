@@ -7,6 +7,6 @@ public class formatacaoString {
         //o java ajuda a entender o condeudo da string concatenando ela por partes
         String palavraGrande = "daksndkasndnajsdnajsdnajsndjansdjn" +
                 "ajsdnjasndjnasdnajsdnajsndjansdjnajsdnjansdjansjdnasjdnajnsdjansj" +
-                "dnajsndjasndjansjdnajsdnajnsdjansdjansdnasndjansjdnajsndjandjasndjansdjad"
+                "dnajsndjasndjansjdnajsdnajnsdjansdjansdnasndjansjdnajsndjandjasndjansdjad";
     }
 }
