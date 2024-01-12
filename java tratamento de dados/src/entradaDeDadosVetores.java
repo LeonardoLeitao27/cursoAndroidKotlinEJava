@@ -13,7 +13,7 @@ public class entradaDeDadosVetores {
         for (int i = 0;i<tamanho;i++){
             vetor[i] = sc.nextInt();
         }
-        
+
         for (int i = 0;i<tamanho;i++){
             System.out.println(vetor[i]);
         }
