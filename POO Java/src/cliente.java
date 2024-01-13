@@ -1,5 +1,5 @@
 public class cliente {
-    public String nome;
+    private String nome;
     private int anoNascimento;
     //get set
     protected float consumo;
@@ -8,12 +8,27 @@ public class cliente {
         return anoNascimento;
     }
 
-    public void setAnoNascimento(int anoNascimento) throws Exception{
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setAnoNascimento(int anoNascimento){
+        if(anoNascimento<1950 || anoNascimento>2005){
+           this.anoNascimento=0;
+        }
+        this.anoNascimento = anoNascimento;
+    }
+    //aula de get e set
+   /* public void setAnoNascimento(int anoNascimento) throws Exception{
         if(anoNascimento<1950 || anoNascimento>2005){
             throw new Exception("O ano de nascimento está invalido");
         }
         this.anoNascimento = anoNascimento;
-    }
+    } */
 }
 
 //Public não realiza restrições de acesso a variavéis e metodos.
