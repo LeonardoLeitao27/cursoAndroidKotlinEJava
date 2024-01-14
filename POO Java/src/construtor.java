@@ -5,8 +5,8 @@ public class construtor {
     public construtor(String h){
 
     }
-    public construtor(){
-        idade =0;
+    public construtor(int idade){
+        this.idade = idade;
         saldo = 0f;
         nome=" ";
     }
