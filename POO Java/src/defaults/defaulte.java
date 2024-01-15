@@ -1,3 +1,5 @@
+package defaults;
+
 public class defaulte {
     public static void main(String[] args) {
         objDedaulte d = new objDedaulte();

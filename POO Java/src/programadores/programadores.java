@@ -1,3 +1,5 @@
+package programadores;
+
 public class programadores {
     public static void main(String[] args) {
         System.out.println(senioridade.JUNIOR.getId());

@@ -1,3 +1,5 @@
+package cliente;
+
 public class cliente {
     private String nome;
     private int anoNascimento;

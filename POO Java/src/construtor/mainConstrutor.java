@@ -1,3 +1,5 @@
+package construtor;
+
 public class mainConstrutor {
     public static void main(String[] args) {
         construtor c = new construtor(15);

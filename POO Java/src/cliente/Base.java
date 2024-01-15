@@ -1,3 +1,5 @@
+package cliente;
+
 public class Base {
     public static void main(String[] args) {
 
@@ -10,7 +12,7 @@ public class Base {
         System.out.println("O consumo de "+ c.getNome() +" foi " + c.consumo);
         System.out.println("O ano de nascimento é " + c.getAnoNascimento());
 
-       // cliente c2 = c; //Está apontando para o primeiro objeto
+       // cliente.cliente c2 = c; //Está apontando para o primeiro objeto
         cliente c2 = new cliente();
         c2.setNome("LeoLeo");
         System.out.println("Pessoa 1: " +  c.getNome() + " Pessoa 2: " + c2.getNome());
@@ -19,7 +21,7 @@ public class Base {
         //aula de get e set
         /*
         try{
-            cliente c = new cliente();
+            cliente.cliente c = new cliente.cliente();
             c.nome = "Leonardo";
             c.consumo = 1090f;
             c.setAnoNascimento(1999);
