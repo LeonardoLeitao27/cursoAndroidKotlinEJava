@@ -1,5 +1,8 @@
 package heranca;
 
 public class operario extends funcionario{
-    public int meta;
+    @Override
+    public void saudacao(){
+        System.out.println("olá teste operario");
+    }
 }

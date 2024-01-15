@@ -10,5 +10,6 @@ public class main {
         float h = op.horaExntra(10,10);
 
         System.out.println("O ganho mensal do funcionario "+op.nome +" é de " + (op.salario+op.bonus+h));
+        op.saudacao();
     }
 }

@@ -10,4 +10,7 @@ public class funcionario {
          return (h*1.5f)+(f*2f);
      }
 
+     public void saudacao(){
+          System.out.println("olá");
+     }
 }
