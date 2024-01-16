@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,10 +7,95 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     >
-    
-    <CheckBox
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="estudar"
-        android:textSize="33sp"/>
-</LinearLayout>
+        android:id="@+id/btn_01"
+        android:text="Botão 01"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_02"
+        android:text="Botão 02"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_03"
+        android:text="Botão 03"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_04"
+        android:text="Botão 04"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_05"
+        android:text="Botão 05"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_06"
+        android:text="Botão 06"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_07"
+        android:text="Botão 07"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_08"
+        android:text="Botão 08"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_09"
+        android:text="Botão 09"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+
+        />
+
+
+
+</RelativeLayout>
