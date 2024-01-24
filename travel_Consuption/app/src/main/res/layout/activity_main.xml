@@ -84,7 +84,7 @@
         android:textSize="35dp"
         android:paddingTop="0dp"
         android:paddingBottom="20dp"
-        android:textColor="#7B8EF6"/>
+        android:textColor="#6675C6"/>
 
     <Button
         android:id="@+id/btnCalcular"
