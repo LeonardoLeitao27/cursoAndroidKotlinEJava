@@ -21,16 +21,27 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+    private fun isValid():Boolean{
+        return (binding.editDitancia.text.toString() != ""
+                && binding.editPreco.text.toString() != ""
+                && binding.editAutonomia.text.toString() != ""
+                && binding.editAutonomia.text.toString().toFloat() != 0f)
+    }
     private fun calculate(){
-        val distance = binding.editDitancia.text.toString().toFloat()
-        val price = binding.editPreco.text.toString().toFloat()
-        val autonomy = binding.editAutonomia.text.toString().toFloat()
+        if (isValid()){
+            val distance = binding.editDitancia.text.toString().toFloat()
+            val price = binding.editPreco.text.toString().toFloat()
+            val autonomy = binding.editAutonomia.text.toString().toFloat()
 
-        val totalValue = (price*distance)/autonomy
+            val totalValue = (price*distance)/autonomy
 
-        
-        //Toast.makeText(this, totalValueStr, Toast.LENGTH_LONG).show()
-        binding.textResu.text = "R$ ${"%.2f".format(totalValue)}"
+
+
+            binding.textResu.text = "R$ ${"%.2f".format(totalValue)}"
+        }else{
+            Toast.makeText(this, "Preencha todos os campos com valores validos", Toast.LENGTH_LONG).show()
+        }
+
 
     }
 
