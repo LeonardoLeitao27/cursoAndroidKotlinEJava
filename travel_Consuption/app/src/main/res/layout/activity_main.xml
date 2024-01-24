@@ -79,7 +79,7 @@
         android:textSize="35dp"
         android:paddingTop="0dp"
         android:paddingBottom="20dp"
-        android:textColor="#3F51B5"/>
+        android:textColor="#7B8EF6"/>
 
     <Button
         android:layout_width="match_parent"
